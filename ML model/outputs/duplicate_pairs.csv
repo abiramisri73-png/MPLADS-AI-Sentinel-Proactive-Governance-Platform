@@ -1,0 +1,332 @@
+work_id_1,work_id_2,work_name_1,work_name_2,district,work_type,name_similarity,geo_proximity_score,cost_similarity,time_overlap_score,duplicate_risk_score
+WRK00154,WRK00154_DUP,Anganwadi Center at District_8 Sector 36,Anganwadi Center at District_8 Sec 36,District_8,Anganwadi Center,96.1,100.0,97.0,100.0,98.2
+WRK00540,WRK00540_DUP,Community Hall at District_9 Sector 5,Community Hall at District_9 Sector 5 Phase,District_9,Community Hall,92.5,100.0,99.3,100.0,97.3
+WRK00139,WRK00139_DUP,Drainage at District_11 Sector 15,Drainage at District_11 Sec 15,District_11,Drainage,95.2,100.0,92.5,100.0,97.2
+WRK00572,WRK00572_DUP,Bridge at District_4 Sector 30,Bridge at District_4 Sec 30,District_4,Bridge,94.7,100.0,93.1,100.0,97.1
+WRK00033,WRK00033_DUP,School Building at District_10 Sector 15,School Building at District_10 Sec 15,District_10,School Building,96.1,100.0,89.1,100.0,97.0
+WRK00096,WRK00096_DUP,School Building at District_8 Sector 10,School Building at District_8 Sector 10 Phase,District_8,School Building,92.9,100.0,96.0,100.0,96.9
+WRK00537,WRK00537_DUP,Irrigation Canal at District_5 Sector 38,Irrigation Canal at District_5 Sector 38 Phase,District_5,Irrigation Canal,93.0,100.0,95.9,100.0,96.9
+WRK00465,WRK00465_DUP,Drainage at District_2 Sector 5,Drainage at District_2 Sector 5 Phase,District_2,Drainage,91.2,100.0,95.2,100.0,96.2
+WRK00379,WRK00379_DUP,Irrigation Canal at District_12 Sector 25,Irrigation Canal at District_12 Sector 25 Phase,District_12,Irrigation Canal,93.2,100.0,90.6,100.0,96.2
+WRK00159,WRK00159_DUP,Bridge at District_1 Sector 28,Bridge at District_1 Sector 28 Phase,District_1,Bridge,90.9,100.0,93.0,100.0,95.8
+WRK00207,WRK00207_DUP,Water Supply at District_11 Sector 30,Water Supply at District_11 Sector 30 Phase,District_11,Water Supply,92.5,100.0,86.2,100.0,95.3
+WRK00588,WRK00588_DUP,Drainage at District_7 Sector 25,Drainage at District_7 Sector 25 Phase,District_7,Drainage,91.4,100.0,88.6,100.0,95.3
+WRK00150,WRK00150_DUP,Road Construction at District_7 Sector 3,Road Construction at District_7 Sector 3 Phase,District_7,Road Construction,93.0,100.0,83.4,100.0,95.1
+WRK00236,WRK00236_DUP,Bridge at District_9 Sector 15,Bridge at District_9 Sector 15 Phase,District_9,Bridge,90.9,100.0,85.6,100.0,94.7
+WRK00534,WRK00534_DUP,Bridge at District_5 Sector 13,Bridge at District_5 Sector 13 Phase,District_5,Bridge,90.9,100.0,82.0,100.0,94.1
+WRK00148,WRK00182,School Building at District_3 Sector 37,School Building at District_3 Sector 14,District_3,School Building,94.9,88.2,88.7,92.0,91.4
+WRK00079,WRK00483,School Building at District_3 Sector 4,School Building at District_3 Sector 39,District_3,School Building,96.1,75.2,96.9,76.5,86.0
+WRK00400,WRK00574,Bridge at District_8 Sector 37,Bridge at District_8 Sector 8,District_8,Bridge,94.9,100.0,57.0,65.6,84.9
+WRK00155,WRK00252,Irrigation Canal at District_4 Sector 21,Irrigation Canal at District_4 Sector 22,District_4,Irrigation Canal,97.5,94.9,49.9,72.2,84.5
+WRK00020,WRK00567,School Building at District_7 Sector 8,School Building at District_7 Sector 6,District_7,School Building,97.4,93.9,85.3,44.0,83.8
+WRK00279,WRK00300,Road Construction at District_3 Sector 27,Road Construction at District_3 Sector 1,District_3,Road Construction,96.3,92.5,89.5,41.7,83.2
+WRK00086,WRK00093,School Building at District_6 Sector 10,School Building at District_6 Sector 31,District_6,School Building,97.4,82.2,84.6,56.0,82.6
+WRK00054,WRK00383,Drainage at District_9 Sector 14,Drainage at District_9 Sector 31,District_9,Drainage,96.9,84.5,91.2,47.7,82.5
+WRK00042,WRK00591,Anganwadi Center at District_2 Sector 9,Anganwadi Center at District_2 Sector 28,District_2,Anganwadi Center,96.2,100.0,18.9,73.6,81.2
+WRK00321,WRK00540,Community Hall at District_9 Sector 30,Community Hall at District_9 Sector 5,District_9,Community Hall,96.0,100.0,15.5,75.1,81.0
+WRK00427,WRK00598,Water Supply at District_2 Sector 38,Water Supply at District_2 Sector 18,District_2,Water Supply,97.2,93.3,0.0,91.9,80.4
+WRK00299,WRK00413,Road Construction at District_9 Sector 15,Road Construction at District_9 Sector 22,District_9,Road Construction,95.1,100.0,0.0,84.3,80.2
+WRK00437,WRK00567,School Building at District_7 Sector 14,School Building at District_7 Sector 6,District_7,School Building,96.1,66.0,92.1,62.9,79.8
+WRK00365,WRK00595,Road Construction at District_2 Sector 19,Road Construction at District_2 Sector 6,District_2,Road Construction,96.3,100.0,0.0,77.3,79.2
+WRK00020,WRK00437,School Building at District_7 Sector 8,School Building at District_7 Sector 14,District_7,School Building,96.1,80.0,77.9,49.6,79.2
+WRK00075,WRK00481,Road Construction at District_1 Sector 38,Road Construction at District_1 Sector 20,District_1,Road Construction,95.1,95.7,50.6,44.7,78.5
+WRK00024,WRK00295,Community Hall at District_1 Sector 35,Community Hall at District_1 Sector 15,District_1,Community Hall,97.4,61.3,78.2,70.5,78.3
+WRK00321,WRK00540_DUP,Community Hall at District_9 Sector 30,Community Hall at District_9 Sector 5 Phase,District_9,Community Hall,88.9,99.6,15.1,75.1,78.3
+WRK00130,WRK00341,Irrigation Canal at District_4 Sector 16,Irrigation Canal at District_4 Sector 6,District_4,Irrigation Canal,98.7,76.9,0.0,93.6,76.4
+WRK00051,WRK00163,Community Hall at District_10 Sector 36,Community Hall at District_10 Sector 39,District_10,Community Hall,97.4,72.9,92.0,32.6,76.3
+WRK00384,WRK00476,Anganwadi Center at District_1 Sector 21,Anganwadi Center at District_1 Sector 22,District_1,Anganwadi Center,97.5,59.8,56.1,78.4,76.2
+WRK00130,WRK00345,Irrigation Canal at District_4 Sector 16,Irrigation Canal at District_4 Sector 28,District_4,Irrigation Canal,95.0,88.3,79.5,20.8,75.8
+WRK00030,WRK00245,Anganwadi Center at District_7 Sector 2,Anganwadi Center at District_7 Sector 4,District_7,Anganwadi Center,97.4,74.4,76.3,39.3,75.7
+WRK00526,WRK00553,Community Hall at District_8 Sector 12,Community Hall at District_8 Sector 39,District_8,Community Hall,94.7,61.8,88.0,52.9,75.5
+WRK00111,WRK00598,Water Supply at District_2 Sector 17,Water Supply at District_2 Sector 18,District_2,Water Supply,97.2,100.0,26.2,37.6,75.5
+WRK00141,WRK00423,Water Supply at District_6 Sector 27,Water Supply at District_6 Sector 7,District_6,Water Supply,98.6,58.3,45.9,82.6,75.4
+WRK00274,WRK00362,Water Supply at District_11 Sector 11,Water Supply at District_11 Sector 8,District_11,Water Supply,95.9,88.9,0.0,75.5,75.3
+WRK00108,WRK00179,Road Construction at District_6 Sector 30,Road Construction at District_6 Sector 13,District_6,Road Construction,97.6,77.5,79.3,29.7,75.2
+WRK00166,WRK00497,Community Hall at District_5 Sector 29,Community Hall at District_5 Sector 25,District_5,Community Hall,97.4,50.3,75.5,72.0,74.9
+WRK00492,WRK00554,Anganwadi Center at District_5 Sector 26,Anganwadi Center at District_5 Sector 29,District_5,Anganwadi Center,97.5,76.4,71.6,35.7,74.9
+WRK00055,WRK00284,Irrigation Canal at District_1 Sector 22,Irrigation Canal at District_1 Sector 19,District_1,Irrigation Canal,95.0,99.5,0.0,58.6,74.8
+WRK00203,WRK00260,Community Hall at District_12 Sector 24,Community Hall at District_12 Sector 39,District_12,Community Hall,94.9,90.0,94.5,0.0,74.4
+WRK00301,WRK00426,Water Supply at District_3 Sector 5,Water Supply at District_3 Sector 33,District_3,Water Supply,95.8,91.2,0.0,67.0,74.3
+WRK00182,WRK00206,School Building at District_3 Sector 14,School Building at District_3 Sector 10,District_3,School Building,97.4,87.8,0.0,69.0,74.2
+WRK00115,WRK00466,Water Supply at District_9 Sector 12,Water Supply at District_9 Sector 39,District_9,Water Supply,94.4,98.7,46.7,22.0,74.1
+WRK00009,WRK00407,Anganwadi Center at District_5 Sector 18,Anganwadi Center at District_5 Sector 10,District_5,Anganwadi Center,97.5,22.5,99.2,89.5,73.6
+WRK00081,WRK00480,Anganwadi Center at District_6 Sector 38,Anganwadi Center at District_6 Sector 17,District_6,Anganwadi Center,95.0,100.0,0.0,50.1,73.3
+WRK00060,WRK00433,Road Construction at District_8 Sector 18,Road Construction at District_8 Sector 7,District_8,Road Construction,96.3,91.9,79.5,0.0,73.2
+WRK00332,WRK00391,Community Hall at District_12 Sector 23,Community Hall at District_12 Sector 37,District_12,Community Hall,97.4,71.2,53.9,48.4,73.2
+WRK00029,WRK00520,Irrigation Canal at District_7 Sector 23,Irrigation Canal at District_7 Sector 29,District_7,Irrigation Canal,97.5,78.0,0.0,78.6,73.2
+WRK00214,WRK00409,Bridge at District_2 Sector 14,Bridge at District_2 Sector 18,District_2,Bridge,96.7,100.0,9.7,38.4,73.0
+WRK00096,WRK00261,School Building at District_8 Sector 10,School Building at District_8 Sector 18,District_8,School Building,97.4,95.7,0.0,48.9,72.6
+WRK00436,WRK00531,Drainage at District_10 Sector 28,Drainage at District_10 Sector 32,District_10,Drainage,97.0,73.8,14.2,70.7,72.4
+WRK00120,WRK00515,Bridge at District_11 Sector 36,Bridge at District_11 Sector 38,District_11,Bridge,96.8,82.6,12.3,57.1,71.9
+WRK00258,WRK00359,Water Supply at District_1 Sector 4,Water Supply at District_1 Sector 26,District_1,Water Supply,95.8,78.3,98.8,0.0,71.8
+WRK00139,WRK00438,Drainage at District_11 Sector 15,Drainage at District_11 Sector 27,District_11,Drainage,93.9,81.5,27.5,51.8,71.8
+WRK00079,WRK00571,School Building at District_3 Sector 4,School Building at District_3 Sector 7,District_3,School Building,97.4,57.2,70.9,48.4,71.6
+WRK00273,WRK00543,School Building at District_1 Sector 36,School Building at District_1 Sector 16,District_1,School Building,97.4,70.8,90.8,13.5,71.6
+WRK00408,WRK00430,Community Hall at District_6 Sector 35,Community Hall at District_6 Sector 16,District_6,Community Hall,94.7,100.0,55.6,0.0,71.5
+WRK00269,WRK00588,Drainage at District_7 Sector 10,Drainage at District_7 Sector 25,District_7,Drainage,93.8,100.0,57.4,0.0,71.4
+WRK00446,WRK00503,Water Supply at District_7 Sector 7,Water Supply at District_7 Sector 26,District_7,Water Supply,95.8,37.7,68.3,80.9,71.3
+WRK00293,WRK00544,School Building at District_11 Sector 23,School Building at District_11 Sector 32,District_11,School Building,97.5,97.8,0.0,39.3,71.3
+WRK00441,WRK00456,Road Construction at District_12 Sector 28,Road Construction at District_12 Sector 15,District_12,Road Construction,95.2,40.3,95.5,57.4,71.2
+WRK00211,WRK00481,Road Construction at District_1 Sector 35,Road Construction at District_1 Sector 20,District_1,Road Construction,95.1,58.1,43.8,69.4,71.2
+WRK00190,WRK00353,Road Construction at District_5 Sector 17,Road Construction at District_5 Sector 5,District_5,Road Construction,96.3,72.7,92.2,9.1,71.2
+WRK00047,WRK00272,Drainage at District_4 Sector 7,Drainage at District_4 Sector 28,District_4,Drainage,95.2,82.9,0.0,64.5,71.1
+WRK00089,WRK00376,Irrigation Canal at District_12 Sector 6,Irrigation Canal at District_12 Sector 36,District_12,Irrigation Canal,98.8,56.5,52.3,58.8,71.1
+WRK00180,WRK00403,Water Supply at District_1 Sector 22,Water Supply at District_1 Sector 34,District_1,Water Supply,94.4,73.1,0.0,80.1,71.0
+WRK00184,WRK00543,School Building at District_1 Sector 13,School Building at District_1 Sector 16,District_1,School Building,97.4,61.5,0.0,91.9,70.9
+WRK00294,WRK00373,Drainage at District_7 Sector 33,Drainage at District_7 Sector 12,District_7,Drainage,93.8,33.1,89.9,72.2,70.7
+WRK00148,WRK00206,School Building at District_3 Sector 37,School Building at District_3 Sector 10,District_3,School Building,94.9,75.0,0.0,75.0,70.7
+WRK00024,WRK00368,Community Hall at District_1 Sector 35,Community Hall at District_1 Sector 14,District_1,Community Hall,94.7,80.2,0.0,67.6,70.7
+WRK00198,WRK00250,Bridge at District_4 Sector 36,Bridge at District_4 Sector 39,District_4,Bridge,96.7,93.5,0.0,42.9,70.5
+WRK00240,WRK00528,Water Supply at District_6 Sector 4,Water Supply at District_6 Sector 34,District_6,Water Supply,98.6,59.7,98.0,16.9,70.5
+WRK00464,WRK00561,Bridge at District_9 Sector 14,Bridge at District_9 Sector 7,District_9,Bridge,94.9,29.2,82.6,80.1,70.4
+WRK00423,WRK00528,Water Supply at District_6 Sector 7,Water Supply at District_6 Sector 34,District_6,Water Supply,95.8,99.4,0.0,35.5,70.4
+WRK00361,WRK00417,Water Supply at District_8 Sector 2,Water Supply at District_8 Sector 18,District_8,Water Supply,95.8,50.3,94.1,37.6,70.3
+WRK00284,WRK00461,Irrigation Canal at District_1 Sector 19,Irrigation Canal at District_1 Sector 6,District_1,Irrigation Canal,96.2,99.7,0.0,33.7,70.3
+WRK00187,WRK00359,Water Supply at District_1 Sector 28,Water Supply at District_1 Sector 26,District_1,Water Supply,97.2,38.2,91.2,54.5,70.1
+WRK00435,WRK00521,School Building at District_10 Sector 35,School Building at District_10 Sector 12,District_10,School Building,95.0,30.8,62.4,91.2,70.1
+WRK00180,WRK00195,Water Supply at District_1 Sector 22,Water Supply at District_1 Sector 1,District_1,Water Supply,95.8,32.3,57.1,91.7,70.1
+WRK00269,WRK00588_DUP,Drainage at District_7 Sector 10,Drainage at District_7 Sector 25 Phase,District_7,Drainage,85.7,100.0,67.0,0.0,70.0
+WRK00318,WRK00417,Water Supply at District_8 Sector 2,Water Supply at District_8 Sector 18,District_8,Water Supply,95.8,19.5,77.4,95.3,70.0
+WRK00096,WRK00253,School Building at District_8 Sector 10,School Building at District_8 Sector 19,District_8,School Building,97.4,84.6,68.7,0.0,69.8
+WRK00089,WRK00095,Irrigation Canal at District_12 Sector 6,Irrigation Canal at District_12 Sector 16,District_12,Irrigation Canal,98.8,100.0,35.0,0.0,69.8
+WRK00182,WRK00571,School Building at District_3 Sector 14,School Building at District_3 Sector 7,District_3,School Building,96.1,98.1,0.0,33.5,69.8
+WRK00265,WRK00564,Anganwadi Center at District_11 Sector 10,Anganwadi Center at District_11 Sector 14,District_11,Anganwadi Center,97.6,29.1,91.3,65.5,69.7
+WRK00342,WRK00500,Community Hall at District_1 Sector 22,Community Hall at District_1 Sector 28,District_1,Community Hall,97.4,24.9,83.9,76.6,69.5
+WRK00361,WRK00371,Water Supply at District_8 Sector 2,Water Supply at District_8 Sector 39,District_8,Water Supply,95.8,36.9,85.2,59.7,69.3
+WRK00009,WRK00314,Anganwadi Center at District_5 Sector 18,Anganwadi Center at District_5 Sector 24,District_5,Anganwadi Center,95.0,46.0,80.5,50.9,69.3
+WRK00180,WRK00258,Water Supply at District_1 Sector 22,Water Supply at District_1 Sector 4,District_1,Water Supply,95.8,55.7,32.6,70.6,69.2
+WRK00056,WRK00133,Water Supply at District_12 Sector 34,Water Supply at District_12 Sector 19,District_12,Water Supply,94.6,90.9,0.0,44.1,69.2
+WRK00124,WRK00418,Water Supply at District_2 Sector 13,Water Supply at District_2 Sector 27,District_2,Water Supply,94.4,51.3,46.5,68.8,69.2
+WRK00001,WRK00448,Anganwadi Center at District_3 Sector 28,Anganwadi Center at District_3 Sector 18,District_3,Anganwadi Center,97.5,51.4,99.0,23.7,69.1
+WRK00155,WRK00345,Irrigation Canal at District_4 Sector 21,Irrigation Canal at District_4 Sector 28,District_4,Irrigation Canal,97.5,28.9,61.5,84.9,69.0
+WRK00003,WRK00590,School Building at District_11 Sector 4,School Building at District_11 Sector 16,District_11,School Building,96.2,53.0,96.1,24.1,68.8
+WRK00075,WRK00211,Road Construction at District_1 Sector 38,Road Construction at District_1 Sector 35,District_1,Road Construction,97.6,68.4,8.3,64.4,68.8
+WRK00342,WRK00368,Community Hall at District_1 Sector 22,Community Hall at District_1 Sector 14,District_1,Community Hall,94.7,85.5,3.3,47.1,68.7
+WRK00261,WRK00096_DUP,School Building at District_8 Sector 18,School Building at District_8 Sector 10 Phase,District_8,School Building,90.5,90.1,0.0,48.9,68.5
+WRK00371,WRK00547,Water Supply at District_8 Sector 39,Water Supply at District_8 Sector 6,District_8,Water Supply,95.8,38.8,69.7,63.8,68.4
+WRK00298,WRK00319,Water Supply at District_12 Sector 19,Water Supply at District_12 Sector 31,District_12,Water Supply,97.3,33.4,88.9,54.8,68.4
+WRK00173,WRK00236,Bridge at District_9 Sector 9,Bridge at District_9 Sector 15,District_9,Bridge,94.9,100.0,0.0,25.9,68.4
+WRK00047,WRK00307,Drainage at District_4 Sector 7,Drainage at District_4 Sector 29,District_4,Drainage,95.2,100.0,0.0,24.8,68.3
+WRK00052,WRK00279,Road Construction at District_3 Sector 11,Road Construction at District_3 Sector 27,District_3,Road Construction,95.1,64.7,0.0,77.8,68.3
+WRK00357,WRK00543,School Building at District_1 Sector 1,School Building at District_1 Sector 16,District_1,School Building,98.7,39.8,85.9,44.7,68.3
+WRK00271,WRK00406,Drainage at District_9 Sector 13,Drainage at District_9 Sector 8,District_9,Drainage,95.2,39.7,74.5,59.2,68.3
+WRK00019,WRK00022,Irrigation Canal at District_10 Sector 13,Irrigation Canal at District_10 Sector 32,District_10,Irrigation Canal,97.6,64.1,89.6,7.4,68.3
+WRK00007,WRK00408,Community Hall at District_6 Sector 28,Community Hall at District_6 Sector 35,District_6,Community Hall,94.7,38.6,72.7,63.0,68.2
+WRK00052,WRK00102,Road Construction at District_3 Sector 11,Road Construction at District_3 Sector 7,District_3,Road Construction,96.3,39.9,92.5,43.1,68.2
+WRK00483,WRK00557,School Building at District_3 Sector 39,School Building at District_3 Sector 6,District_3,School Building,96.1,77.9,0.3,55.6,68.2
+WRK00274,WRK00348,Water Supply at District_11 Sector 11,Water Supply at District_11 Sector 33,District_11,Water Supply,94.6,22.6,75.1,84.5,68.1
+WRK00194,WRK00330,Road Construction at District_11 Sector 29,Road Construction at District_11 Sector 14,District_11,Road Construction,95.2,24.7,94.1,65.7,68.0
+WRK00341,WRK00345,Irrigation Canal at District_4 Sector 6,Irrigation Canal at District_4 Sector 28,District_4,Irrigation Canal,96.2,99.2,0.0,22.7,68.0
+WRK00157,WRK00497,Community Hall at District_5 Sector 6,Community Hall at District_5 Sector 25,District_5,Community Hall,96.0,21.6,96.3,67.6,68.0
+WRK00409,WRK00469,Bridge at District_2 Sector 18,Bridge at District_2 Sector 25,District_2,Bridge,93.3,49.5,86.2,37.5,67.9
+WRK00439,WRK00448,Anganwadi Center at District_3 Sector 23,Anganwadi Center at District_3 Sector 18,District_3,Anganwadi Center,95.0,38.4,73.3,60.7,67.9
+WRK00438,WRK00139_DUP,Drainage at District_11 Sector 27,Drainage at District_11 Sec 15,District_11,Drainage,88.9,76.9,22.7,51.8,67.9
+WRK00132,WRK00137,Bridge at District_11 Sector 20,Bridge at District_11 Sector 17,District_11,Bridge,93.5,33.7,78.6,65.4,67.7
+WRK00092,WRK00166,Community Hall at District_5 Sector 14,Community Hall at District_5 Sector 29,District_5,Community Hall,94.7,83.0,0.0,47.7,67.6
+WRK00352,WRK00398,Anganwadi Center at District_2 Sector 32,Anganwadi Center at District_2 Sector 24,District_2,Anganwadi Center,97.5,63.8,0.0,71.6,67.6
+WRK00021,WRK00406,Drainage at District_9 Sector 37,Drainage at District_9 Sector 8,District_9,Drainage,95.2,83.0,62.5,0.0,67.6
+WRK00050,WRK00473,Drainage at District_11 Sector 33,Drainage at District_11 Sector 8,District_11,Drainage,95.4,90.3,1.9,33.8,67.5
+WRK00127,WRK00530,Bridge at District_8 Sector 11,Bridge at District_8 Sector 24,District_8,Bridge,93.3,63.9,0.0,78.2,67.5
+WRK00094,WRK00439,Anganwadi Center at District_3 Sector 22,Anganwadi Center at District_3 Sector 23,District_3,Anganwadi Center,97.5,100.0,20.7,0.3,67.3
+WRK00374,WRK00396,School Building at District_4 Sector 14,School Building at District_4 Sector 38,District_4,School Building,94.9,79.0,69.6,0.0,67.3
+WRK00095,WRK00376,Irrigation Canal at District_12 Sector 16,Irrigation Canal at District_12 Sector 36,District_12,Irrigation Canal,97.6,68.8,77.3,4.5,67.3
+WRK00356,WRK00236_DUP,Bridge at District_9 Sector 9,Bridge at District_9 Sector 15 Phase,District_9,Bridge,86.2,89.4,68.1,0.0,67.2
+WRK00253,WRK00096_DUP,School Building at District_8 Sector 19,School Building at District_8 Sector 10 Phase,District_8,School Building,90.5,82.5,72.1,0.0,67.2
+WRK00111,WRK00427,Water Supply at District_2 Sector 17,Water Supply at District_2 Sector 38,District_2,Water Supply,94.4,91.7,0.0,33.3,67.2
+WRK00002,WRK00384,Anganwadi Center at District_1 Sector 17,Anganwadi Center at District_1 Sector 21,District_1,Anganwadi Center,97.5,68.6,0.0,61.3,67.0
+WRK00405,WRK00474,Bridge at District_12 Sector 39,Bridge at District_12 Sector 37,District_12,Bridge,96.8,81.6,0.0,42.0,66.8
+WRK00456,WRK00556,Road Construction at District_12 Sector 15,Road Construction at District_12 Sector 2,District_12,Road Construction,96.4,70.6,79.5,0.0,66.8
+WRK00524,WRK00554,Anganwadi Center at District_5 Sector 31,Anganwadi Center at District_5 Sector 29,District_5,Anganwadi Center,95.0,33.7,93.8,46.5,66.7
+WRK00356,WRK00561,Bridge at District_9 Sector 9,Bridge at District_9 Sector 7,District_9,Bridge,96.6,28.6,32.5,96.8,66.6
+WRK00152,WRK00442,Drainage at District_10 Sector 32,Drainage at District_10 Sector 8,District_10,Drainage,95.4,34.2,95.9,42.5,66.5
+WRK00305,WRK00342,Community Hall at District_1 Sector 35,Community Hall at District_1 Sector 22,District_1,Community Hall,94.7,72.5,77.1,0.0,66.5
+WRK00236,WRK00356,Bridge at District_9 Sector 15,Bridge at District_9 Sector 9,District_9,Bridge,94.9,82.7,56.0,0.0,66.4
+WRK00160,WRK00426,Water Supply at District_3 Sector 35,Water Supply at District_3 Sector 33,District_3,Water Supply,97.2,39.7,47.7,66.4,66.4
+WRK00198,WRK00572,Bridge at District_4 Sector 36,Bridge at District_4 Sector 30,District_4,Bridge,96.7,66.8,0.0,62.0,66.3
+WRK00135,WRK00386,Irrigation Canal at District_5 Sector 8,Irrigation Canal at District_5 Sector 32,District_5,Irrigation Canal,96.2,83.5,0.0,37.8,66.3
+WRK00094,WRK00103,Anganwadi Center at District_3 Sector 22,Anganwadi Center at District_3 Sector 34,District_3,Anganwadi Center,95.0,87.2,0.0,34.6,66.3
+WRK00376,WRK00460,Irrigation Canal at District_12 Sector 36,Irrigation Canal at District_12 Sector 28,District_12,Irrigation Canal,95.1,62.7,0.0,70.6,66.2
+WRK00008,WRK00173,Bridge at District_9 Sector 14,Bridge at District_9 Sector 9,District_9,Bridge,94.9,35.4,58.2,68.0,66.2
+WRK00133,WRK00292,Water Supply at District_12 Sector 19,Water Supply at District_12 Sector 1,District_12,Water Supply,98.6,83.5,0.0,32.5,66.1
+WRK00272,WRK00307,Drainage at District_4 Sector 28,Drainage at District_4 Sector 29,District_4,Drainage,96.9,92.0,0.0,22.2,66.0
+WRK00223,WRK00556,Road Construction at District_12 Sector 37,Road Construction at District_12 Sector 2,District_12,Road Construction,96.4,65.7,0.0,62.7,66.0
+WRK00111,WRK00124,Water Supply at District_2 Sector 17,Water Supply at District_2 Sector 13,District_2,Water Supply,97.2,82.1,0.0,36.1,65.9
+WRK00219,WRK00491,Irrigation Canal at District_1 Sector 3,Irrigation Canal at District_1 Sector 2,District_1,Irrigation Canal,97.4,38.8,50.3,63.1,65.9
+WRK00250,WRK00572,Bridge at District_4 Sector 39,Bridge at District_4 Sector 30,District_4,Bridge,96.7,55.1,0.0,77.9,65.9
+WRK00303,WRK00433,Road Construction at District_8 Sector 38,Road Construction at District_8 Sector 7,District_8,Road Construction,96.3,34.1,95.3,38.2,65.9
+WRK00127,WRK00574,Bridge at District_8 Sector 11,Bridge at District_8 Sector 8,District_8,Bridge,94.9,49.9,62.8,40.7,65.8
+WRK00253,WRK00261,School Building at District_8 Sector 19,School Building at District_8 Sector 18,District_8,School Building,97.4,83.4,0.0,33.5,65.8
+WRK00077,WRK00189,Anganwadi Center at District_10 Sector 1,Anganwadi Center at District_10 Sector 18,District_10,Anganwadi Center,98.8,55.6,0.0,72.7,65.8
+WRK00102,WRK00300,Road Construction at District_3 Sector 7,Road Construction at District_3 Sector 1,District_3,Road Construction,97.5,39.6,0.0,98.1,65.6
+WRK00117,WRK00567,School Building at District_7 Sector 39,School Building at District_7 Sector 6,District_7,School Building,96.1,65.5,0.0,61.3,65.5
+WRK00240,WRK00423,Water Supply at District_6 Sector 4,Water Supply at District_6 Sector 7,District_6,Water Supply,97.1,65.5,0.0,59.2,65.5
+WRK00349,WRK00460,Irrigation Canal at District_12 Sector 4,Irrigation Canal at District_12 Sector 28,District_12,Irrigation Canal,96.3,32.7,97.0,36.8,65.4
+WRK00173,WRK00236_DUP,Bridge at District_9 Sector 9,Bridge at District_9 Sector 15 Phase,District_9,Bridge,86.2,100.0,0.0,25.9,65.3
+WRK00372,WRK00484,Irrigation Canal at District_6 Sector 25,Irrigation Canal at District_6 Sector 6,District_6,Irrigation Canal,96.2,84.1,42.4,0.0,65.3
+WRK00135,WRK00537,Irrigation Canal at District_5 Sector 8,Irrigation Canal at District_5 Sector 38,District_5,Irrigation Canal,98.7,59.2,18.1,51.4,65.3
+WRK00097,WRK00121,School Building at District_12 Sector 12,School Building at District_12 Sector 20,District_12,School Building,97.5,49.4,94.0,11.5,65.3
+WRK00073,WRK00574,Bridge at District_8 Sector 10,Bridge at District_8 Sector 8,District_8,Bridge,94.9,31.2,86.3,49.0,65.3
+WRK00198,WRK00572_DUP,Bridge at District_4 Sector 36,Bridge at District_4 Sec 30,District_4,Bridge,91.2,69.6,0.0,62.0,65.2
+WRK00067,WRK00448,Anganwadi Center at District_3 Sector 6,Anganwadi Center at District_3 Sector 18,District_3,Anganwadi Center,96.2,23.7,88.3,55.8,65.2
+WRK00148,WRK00571,School Building at District_3 Sector 37,School Building at District_3 Sector 7,District_3,School Building,98.7,76.5,0.0,38.7,65.2
+WRK00491,WRK00566,Irrigation Canal at District_1 Sector 2,Irrigation Canal at District_1 Sector 8,District_1,Irrigation Canal,97.4,99.6,5.9,1.3,65.1
+WRK00483,WRK00571,School Building at District_3 Sector 39,School Building at District_3 Sector 7,District_3,School Building,96.1,35.4,73.6,48.5,65.0
+WRK00282,WRK00498,Anganwadi Center at District_6 Sector 12,Anganwadi Center at District_6 Sector 27,District_6,Anganwadi Center,97.5,83.8,0.0,28.6,65.0
+WRK00005,WRK00307,Drainage at District_4 Sector 23,Drainage at District_4 Sector 29,District_4,Drainage,96.9,36.7,95.5,28.4,64.9
+WRK00055,WRK00461,Irrigation Canal at District_1 Sector 22,Irrigation Canal at District_1 Sector 6,District_1,Irrigation Canal,96.2,84.4,0.0,29.0,64.8
+WRK00131,WRK00154_DUP,Anganwadi Center at District_8 Sector 30,Anganwadi Center at District_8 Sec 36,District_8,Anganwadi Center,93.5,68.1,0.0,57.7,64.7
+WRK00262,WRK00571,School Building at District_3 Sector 24,School Building at District_3 Sector 7,District_3,School Building,96.1,90.6,0.0,19.5,64.7
+WRK00250,WRK00572_DUP,Bridge at District_4 Sector 39,Bridge at District_4 Sec 30,District_4,Bridge,91.2,57.4,0.0,77.9,64.7
+WRK00092,WRK00509,Community Hall at District_5 Sector 14,Community Hall at District_5 Sector 15,District_5,Community Hall,97.4,94.7,0.0,10.3,64.6
+WRK00088,WRK00231,Drainage at District_6 Sector 31,Drainage at District_6 Sector 29,District_6,Drainage,93.8,71.5,0.0,51.9,64.6
+WRK00038,WRK00533,Bridge at District_11 Sector 20,Bridge at District_11 Sector 15,District_11,Bridge,93.5,84.2,0.0,33.0,64.6
+WRK00242,WRK00496,Bridge at District_3 Sector 1,Bridge at District_3 Sector 12,District_3,Bridge,98.3,31.4,97.6,30.8,64.6
+WRK00165,WRK00471,Road Construction at District_8 Sector 8,Road Construction at District_8 Sector 13,District_8,Road Construction,96.3,62.8,31.8,36.0,64.5
+WRK00049,WRK00278,School Building at District_2 Sector 4,School Building at District_2 Sector 13,District_2,School Building,96.1,70.7,2.1,46.5,64.5
+WRK00001,WRK00067,Anganwadi Center at District_3 Sector 28,Anganwadi Center at District_3 Sector 6,District_3,Anganwadi Center,96.2,37.3,89.3,31.2,64.5
+WRK00292,WRK00298,Water Supply at District_12 Sector 1,Water Supply at District_12 Sector 19,District_12,Water Supply,98.6,100.0,0.0,0.0,64.5
+WRK00482,WRK00585,Road Construction at District_10 Sector 28,Road Construction at District_10 Sector 28,District_10,Road Construction,100.0,63.2,69.7,0.0,64.4
+WRK00273,WRK00357,School Building at District_1 Sector 36,School Building at District_1 Sector 1,District_1,School Building,96.1,34.6,94.9,30.7,64.4
+WRK00079,WRK00148,School Building at District_3 Sector 4,School Building at District_3 Sector 37,District_3,School Building,96.1,95.7,0.0,10.3,64.4
+WRK00147,WRK00427,Water Supply at District_2 Sector 16,Water Supply at District_2 Sector 38,District_2,Water Supply,94.4,76.1,55.8,0.0,64.3
+WRK00151,WRK00308,Irrigation Canal at District_3 Sector 34,Irrigation Canal at District_3 Sector 2,District_3,Irrigation Canal,96.2,26.0,95.8,42.2,64.3
+WRK00014,WRK00340,Road Construction at District_4 Sector 22,Road Construction at District_4 Sector 1,District_4,Road Construction,96.3,58.5,0.0,64.9,64.3
+WRK00220,WRK00240,Water Supply at District_6 Sector 33,Water Supply at District_6 Sector 4,District_6,Water Supply,95.8,68.2,4.2,48.5,64.3
+WRK00054,WRK00271,Drainage at District_9 Sector 14,Drainage at District_9 Sector 13,District_9,Drainage,96.9,65.8,0.0,53.4,64.3
+WRK00131,WRK00154,Anganwadi Center at District_8 Sector 30,Anganwadi Center at District_8 Sector 36,District_8,Anganwadi Center,97.5,62.2,0.0,57.7,64.3
+WRK00081,WRK00350,Anganwadi Center at District_6 Sector 38,Anganwadi Center at District_6 Sector 36,District_6,Anganwadi Center,97.5,24.7,75.5,57.3,64.3
+WRK00075,WRK00419,Road Construction at District_1 Sector 38,Road Construction at District_1 Sector 1,District_1,Road Construction,96.3,36.7,33.2,72.7,64.2
+WRK00241,WRK00551,School Building at District_8 Sector 20,School Building at District_8 Sector 14,District_8,School Building,94.9,22.2,92.6,51.6,64.1
+WRK00242,WRK00452,Bridge at District_3 Sector 1,Bridge at District_3 Sector 39,District_3,Bridge,94.9,63.8,0.0,58.6,64.1
+WRK00530,WRK00574,Bridge at District_8 Sector 24,Bridge at District_8 Sector 8,District_8,Bridge,94.9,81.8,0.0,31.9,64.1
+WRK00206,WRK00571,School Building at District_3 Sector 10,School Building at District_3 Sector 7,District_3,School Building,96.1,73.1,0.0,42.0,64.0
+WRK00035,WRK00174,Road Construction at District_1 Sector 5,Road Construction at District_1 Sector 23,District_1,Road Construction,96.3,46.1,25.3,63.4,64.0
+WRK00127,WRK00400,Bridge at District_8 Sector 11,Bridge at District_8 Sector 37,District_8,Bridge,93.3,42.7,92.8,23.1,64.0
+WRK00183,WRK00249,Road Construction at District_2 Sector 37,Road Construction at District_2 Sector 9,District_2,Road Construction,96.3,29.9,92.1,37.1,63.9
+WRK00034,WRK00547,Water Supply at District_8 Sector 23,Water Supply at District_8 Sector 6,District_8,Water Supply,95.8,36.9,91.7,27.9,63.9
+WRK00310,WRK00352,Anganwadi Center at District_2 Sector 12,Anganwadi Center at District_2 Sector 32,District_2,Anganwadi Center,97.5,81.4,0.0,26.1,63.8
+WRK00352,WRK00591,Anganwadi Center at District_2 Sector 32,Anganwadi Center at District_2 Sector 28,District_2,Anganwadi Center,97.5,15.6,91.8,56.0,63.8
+WRK00283,WRK00311,Road Construction at District_10 Sector 3,Road Construction at District_10 Sector 22,District_10,Road Construction,96.4,100.0,0.0,0.0,63.7
+WRK00266,WRK00487,Community Hall at District_10 Sector 8,Community Hall at District_10 Sector 33,District_10,Community Hall,96.1,9.8,81.8,74.4,63.7
+WRK00287,WRK00457,Road Construction at District_7 Sector 10,Road Construction at District_7 Sector 33,District_7,Road Construction,95.1,100.0,2.5,0.0,63.7
+WRK00361,WRK00547,Water Supply at District_8 Sector 2,Water Supply at District_8 Sector 6,District_8,Water Supply,97.1,27.7,83.3,44.5,63.7
+WRK00312,WRK00562,Water Supply at District_10 Sector 30,Water Supply at District_10 Sector 16,District_10,Water Supply,94.6,63.9,60.2,11.6,63.6
+WRK00033,WRK00521,School Building at District_10 Sector 15,School Building at District_10 Sector 12,District_10,School Building,97.5,96.3,0.0,2.4,63.5
+WRK00029,WRK00251,Irrigation Canal at District_7 Sector 23,Irrigation Canal at District_7 Sector 5,District_7,Irrigation Canal,96.2,71.3,0.0,42.2,63.5
+WRK00336,WRK00366,Anganwadi Center at District_11 Sector 12,Anganwadi Center at District_11 Sector 8,District_11,Anganwadi Center,96.3,52.6,0.0,70.0,63.5
+WRK00503,WRK00536,Water Supply at District_7 Sector 26,Water Supply at District_7 Sector 22,District_7,Water Supply,97.2,55.7,0.0,63.4,63.4
+WRK00029,WRK00031,Irrigation Canal at District_7 Sector 23,Irrigation Canal at District_7 Sector 6,District_7,Irrigation Canal,96.2,20.8,74.5,61.5,63.4
+WRK00314,WRK00407,Anganwadi Center at District_5 Sector 24,Anganwadi Center at District_5 Sector 10,District_5,Anganwadi Center,95.0,26.2,79.7,51.4,63.4
+WRK00084,WRK00146,Water Supply at District_2 Sector 35,Water Supply at District_2 Sector 6,District_2,Water Supply,95.8,26.8,78.3,50.3,63.4
+WRK00361,WRK00599,Water Supply at District_8 Sector 2,Water Supply at District_8 Sector 36,District_8,Water Supply,95.8,99.0,0.0,0.0,63.2
+WRK00324,WRK00337,Anganwadi Center at District_1 Sector 6,Anganwadi Center at District_1 Sector 9,District_1,Anganwadi Center,97.4,20.4,91.9,45.5,63.1
+WRK00273,WRK00581,School Building at District_1 Sector 36,School Building at District_1 Sector 19,District_1,School Building,94.9,83.0,0.0,24.9,63.1
+WRK00092,WRK00325,Community Hall at District_5 Sector 14,Community Hall at District_5 Sector 19,District_5,Community Hall,97.4,60.2,0.0,54.3,63.0
+WRK00185,WRK00369,School Building at District_12 Sector 20,School Building at District_12 Sector 22,District_12,School Building,97.5,12.8,50.0,87.4,63.0
+WRK00027,WRK00473,Drainage at District_11 Sector 15,Drainage at District_11 Sector 8,District_11,Drainage,95.4,98.7,0.0,0.0,63.0
+WRK00066,WRK00427,Water Supply at District_2 Sector 11,Water Supply at District_2 Sector 38,District_2,Water Supply,94.4,99.7,0.0,0.0,63.0
+WRK00544,WRK00590,School Building at District_11 Sector 32,School Building at District_11 Sector 16,District_11,School Building,95.0,7.2,70.7,84.2,62.9
+WRK00289,WRK00309,School Building at District_11 Sector 7,School Building at District_11 Sector 2,District_11,School Building,97.4,46.5,35.5,47.7,62.9
+WRK00066,WRK00147,Water Supply at District_2 Sector 11,Water Supply at District_2 Sector 16,District_2,Water Supply,97.2,70.5,0.0,37.9,62.8
+WRK00389,WRK00515,Bridge at District_11 Sector 28,Bridge at District_11 Sector 38,District_11,Bridge,96.8,41.6,98.2,8.5,62.8
+WRK00020,WRK00117,School Building at District_7 Sector 8,School Building at District_7 Sector 39,District_7,School Building,96.1,44.6,0.0,78.7,62.8
+WRK00195,WRK00258,Water Supply at District_1 Sector 1,Water Supply at District_1 Sector 4,District_1,Water Supply,97.1,43.9,4.1,75.1,62.8
+WRK00184,WRK00422,School Building at District_1 Sector 13,School Building at District_1 Sector 14,District_1,School Building,97.4,75.3,3.3,28.0,62.8
+WRK00195,WRK00320,Water Supply at District_1 Sector 1,Water Supply at District_1 Sector 17,District_1,Water Supply,98.6,55.0,78.3,0.0,62.8
+WRK00318,WRK00547,Water Supply at District_8 Sector 2,Water Supply at District_8 Sector 6,District_8,Water Supply,97.1,21.6,99.4,36.5,62.7
+WRK00226,WRK00597,Bridge at District_1 Sector 2,Bridge at District_1 Sector 26,District_1,Bridge,98.3,0.0,95.1,70.3,62.7
+WRK00386,WRK00537,Irrigation Canal at District_5 Sector 32,Irrigation Canal at District_5 Sector 38,District_5,Irrigation Canal,97.5,39.9,0.0,82.8,62.7
+WRK00311,WRK00428,Road Construction at District_10 Sector 22,Road Construction at District_10 Sector 38,District_10,Road Construction,95.2,59.4,75.7,0.0,62.5
+WRK00009,WRK00354,Anganwadi Center at District_5 Sector 18,Anganwadi Center at District_5 Sector 21,District_5,Anganwadi Center,97.5,81.2,0.0,20.1,62.5
+WRK00175,WRK00275,Bridge at District_6 Sector 8,Bridge at District_6 Sector 1,District_6,Bridge,96.6,9.7,60.4,83.4,62.4
+WRK00316,WRK00417,Water Supply at District_8 Sector 1,Water Supply at District_8 Sector 18,District_8,Water Supply,98.6,32.8,0.0,90.4,62.4
+WRK00159,WRK00226,Bridge at District_1 Sector 28,Bridge at District_1 Sector 2,District_1,Bridge,98.3,87.5,3.1,6.5,62.4
+WRK00012,WRK00349,Irrigation Canal at District_12 Sector 18,Irrigation Canal at District_12 Sector 4,District_12,Irrigation Canal,96.3,56.3,0.0,59.0,62.4
+WRK00250,WRK00518,Bridge at District_4 Sector 39,Bridge at District_4 Sector 34,District_4,Bridge,96.7,36.1,83.4,26.1,62.4
+WRK00068,WRK00104,Road Construction at District_2 Sector 24,Road Construction at District_2 Sector 17,District_2,Road Construction,95.1,37.7,0.0,88.7,62.3
+WRK00135,WRK00537_DUP,Irrigation Canal at District_5 Sector 8,Irrigation Canal at District_5 Sector 38 Phase,District_5,Irrigation Canal,91.8,56.2,20.6,51.4,62.3
+WRK00064,WRK00488,Drainage at District_12 Sector 18,Drainage at District_12 Sector 14,District_12,Drainage,97.0,94.4,0.0,0.0,62.3
+WRK00079,WRK00202,School Building at District_3 Sector 4,School Building at District_3 Sector 28,District_3,School Building,96.1,45.2,24.1,57.0,62.2
+WRK00182,WRK00262,School Building at District_3 Sector 14,School Building at District_3 Sector 24,District_3,School Building,97.4,93.7,0.0,0.0,62.2
+WRK00026,WRK00458,Drainage at District_2 Sector 21,Drainage at District_2 Sector 37,District_2,Drainage,93.8,65.0,0.0,49.1,62.2
+WRK00087,WRK00178,Bridge at District_2 Sector 32,Bridge at District_2 Sector 22,District_2,Bridge,96.7,42.7,0.0,77.4,62.1
+WRK00338,WRK00429,Community Hall at District_4 Sector 30,Community Hall at District_4 Sector 8,District_4,Community Hall,96.0,60.1,15.6,40.4,62.1
+WRK00224,WRK00414,Irrigation Canal at District_8 Sector 33,Irrigation Canal at District_8 Sector 6,District_8,Irrigation Canal,96.2,20.0,67.9,61.1,62.1
+WRK00157,WRK00166,Community Hall at District_5 Sector 6,Community Hall at District_5 Sector 29,District_5,Community Hall,96.0,22.6,78.8,48.7,62.0
+WRK00111,WRK00270,Water Supply at District_2 Sector 17,Water Supply at District_2 Sector 28,District_2,Water Supply,94.4,18.6,74.9,60.9,62.0
+WRK00535,WRK00591,Anganwadi Center at District_2 Sector 16,Anganwadi Center at District_2 Sector 28,District_2,Anganwadi Center,95.0,89.3,0.0,9.9,62.0
+WRK00297,WRK00591,Anganwadi Center at District_2 Sector 13,Anganwadi Center at District_2 Sector 28,District_2,Anganwadi Center,95.0,51.2,0.0,67.0,62.0
+WRK00365,WRK00573,Road Construction at District_2 Sector 19,Road Construction at District_2 Sector 38,District_2,Road Construction,95.1,48.5,94.3,0.0,62.0
+WRK00381,WRK00470,Bridge at District_4 Sector 29,Bridge at District_4 Sector 4,District_4,Bridge,94.9,89.2,0.0,9.9,62.0
+WRK00273,WRK00508,School Building at District_1 Sector 36,School Building at District_1 Sector 24,District_1,School Building,94.9,61.5,0.0,51.7,62.0
+WRK00089,WRK00349,Irrigation Canal at District_12 Sector 6,Irrigation Canal at District_12 Sector 4,District_12,Irrigation Canal,97.5,52.9,0.0,59.4,61.9
+WRK00318,WRK00361,Water Supply at District_8 Sector 2,Water Supply at District_8 Sector 2,District_8,Water Supply,100.0,21.2,82.7,40.7,61.9
+WRK00034,WRK00318,Water Supply at District_8 Sector 23,Water Supply at District_8 Sector 2,District_8,Water Supply,98.6,45.0,92.2,0.0,61.9
+WRK00122,WRK00430,Community Hall at District_6 Sector 23,Community Hall at District_6 Sector 16,District_6,Community Hall,94.7,43.0,0.0,78.8,61.8
+WRK00038,WRK00507,Bridge at District_11 Sector 20,Bridge at District_11 Sector 30,District_11,Bridge,96.8,60.0,0.0,49.7,61.8
+WRK00062,WRK00561,Bridge at District_9 Sector 31,Bridge at District_9 Sector 7,District_9,Bridge,94.9,55.0,0.0,60.4,61.8
+WRK00124,WRK00598,Water Supply at District_2 Sector 13,Water Supply at District_2 Sector 18,District_2,Water Supply,97.2,84.8,0.0,11.7,61.8
+WRK00074,WRK00447,Irrigation Canal at District_4 Sector 17,Irrigation Canal at District_4 Sector 24,District_4,Irrigation Canal,95.0,60.4,49.6,14.7,61.8
+WRK00067,WRK00439,Anganwadi Center at District_3 Sector 6,Anganwadi Center at District_3 Sector 23,District_3,Anganwadi Center,96.2,19.7,84.0,47.4,61.7
+WRK00165,WRK00200,Road Construction at District_8 Sector 8,Road Construction at District_8 Sector 34,District_8,Road Construction,96.3,87.0,0.0,8.8,61.6
+WRK00196,WRK00480,Anganwadi Center at District_6 Sector 14,Anganwadi Center at District_6 Sector 17,District_6,Anganwadi Center,97.5,44.1,41.5,40.3,61.6
+WRK00206,WRK00557,School Building at District_3 Sector 10,School Building at District_3 Sector 6,District_3,School Building,96.1,33.0,83.0,28.1,61.6
+WRK00075,WRK00174,Road Construction at District_1 Sector 38,Road Construction at District_1 Sector 23,District_1,Road Construction,97.6,34.3,93.9,14.9,61.5
+WRK00314,WRK00554,Anganwadi Center at District_5 Sector 24,Anganwadi Center at District_5 Sector 29,District_5,Anganwadi Center,97.5,80.1,0.0,16.5,61.5
+WRK00142,WRK00535,Anganwadi Center at District_2 Sector 9,Anganwadi Center at District_2 Sector 16,District_2,Anganwadi Center,96.2,52.2,0.0,60.9,61.5
+WRK00441,WRK00556,Road Construction at District_12 Sector 28,Road Construction at District_12 Sector 2,District_12,Road Construction,98.8,34.5,83.7,20.1,61.5
+WRK00187,WRK00320,Water Supply at District_1 Sector 28,Water Supply at District_1 Sector 17,District_1,Water Supply,94.4,58.4,0.0,54.2,61.4
+WRK00152,WRK00277,Drainage at District_10 Sector 32,Drainage at District_10 Sector 19,District_10,Drainage,93.9,13.5,80.3,62.4,61.4
+WRK00306,WRK00413,Road Construction at District_9 Sector 3,Road Construction at District_9 Sector 22,District_9,Road Construction,96.3,28.7,45.4,61.5,61.4
+WRK00143,WRK00306,Road Construction at District_9 Sector 31,Road Construction at District_9 Sector 3,District_9,Road Construction,98.8,78.6,0.0,16.1,61.4
+WRK00246,WRK00441,Road Construction at District_12 Sector 37,Road Construction at District_12 Sector 28,District_12,Road Construction,95.2,50.4,0.0,64.2,61.3
+WRK00136,WRK00236,Bridge at District_9 Sector 7,Bridge at District_9 Sector 15,District_9,Bridge,94.9,38.2,74.5,27.3,61.3
+WRK00271,WRK00383,Drainage at District_9 Sector 13,Drainage at District_9 Sector 31,District_9,Drainage,96.9,53.8,0.0,56.2,61.3
+WRK00082,WRK00398,Anganwadi Center at District_2 Sector 7,Anganwadi Center at District_2 Sector 24,District_2,Anganwadi Center,96.2,76.1,0.0,23.9,61.3
+WRK00314,WRK00492,Anganwadi Center at District_5 Sector 24,Anganwadi Center at District_5 Sector 26,District_5,Anganwadi Center,97.5,90.2,0.0,0.0,61.2
+WRK00068,WRK00183,Road Construction at District_2 Sector 24,Road Construction at District_2 Sector 37,District_2,Road Construction,95.1,61.8,34.9,20.6,61.2
+WRK00400,WRK00530,Bridge at District_8 Sector 37,Bridge at District_8 Sector 24,District_8,Bridge,93.3,82.9,0.0,18.4,61.2
+WRK00142,WRK00153,Anganwadi Center at District_2 Sector 9,Anganwadi Center at District_2 Sector 24,District_2,Anganwadi Center,96.2,19.3,70.6,55.6,61.2
+WRK00151,WRK00169,Irrigation Canal at District_3 Sector 34,Irrigation Canal at District_3 Sector 3,District_3,Irrigation Canal,98.7,21.8,0.0,100.0,61.1
+WRK00556,WRK00569,Road Construction at District_12 Sector 2,Road Construction at District_12 Sector 14,District_12,Road Construction,96.4,37.3,8.5,74.5,61.1
+WRK00247,WRK00305,Community Hall at District_1 Sector 30,Community Hall at District_1 Sector 35,District_1,Community Hall,97.4,14.3,77.1,55.8,61.1
+WRK00063,WRK00231,Drainage at District_6 Sector 4,Drainage at District_6 Sector 29,District_6,Drainage,95.2,31.9,0.0,91.0,61.1
+WRK00202,WRK00483,School Building at District_3 Sector 28,School Building at District_3 Sector 39,District_3,School Building,94.9,37.7,22.2,65.8,61.0
+WRK00204,WRK00379,Irrigation Canal at District_12 Sector 1,Irrigation Canal at District_12 Sector 25,District_12,Irrigation Canal,96.3,90.9,0.0,0.0,61.0
+WRK00088,WRK00394,Drainage at District_6 Sector 31,Drainage at District_6 Sector 19,District_6,Drainage,96.9,44.4,0.0,69.1,61.0
+WRK00010,WRK00339,Water Supply at District_2 Sector 6,Water Supply at District_2 Sector 28,District_2,Water Supply,95.8,30.1,67.2,41.2,60.9
+WRK00110,WRK00598,Water Supply at District_2 Sector 17,Water Supply at District_2 Sector 18,District_2,Water Supply,97.2,64.6,49.7,0.0,60.9
+WRK00124,WRK00427,Water Supply at District_2 Sector 13,Water Supply at District_2 Sector 38,District_2,Water Supply,97.2,83.2,0.0,9.5,60.9
+WRK00295,WRK00368,Community Hall at District_1 Sector 15,Community Hall at District_1 Sector 14,District_1,Community Hall,97.4,38.0,0.0,77.0,60.9
+WRK00004,WRK00531,Drainage at District_10 Sector 19,Drainage at District_10 Sector 32,District_10,Drainage,93.9,27.7,41.0,68.0,60.9
+WRK00212,WRK00534,Bridge at District_5 Sector 14,Bridge at District_5 Sector 13,District_5,Bridge,96.7,61.5,0.0,43.1,60.9
+WRK00099,WRK00406,Drainage at District_9 Sector 25,Drainage at District_9 Sector 8,District_9,Drainage,95.2,91.8,0.0,0.0,60.9
+WRK00079,WRK00557,School Building at District_3 Sector 4,School Building at District_3 Sector 6,District_3,School Building,97.4,52.2,1.9,54.5,60.9
+WRK00220,WRK00423,Water Supply at District_6 Sector 33,Water Supply at District_6 Sector 7,District_6,Water Supply,95.8,61.0,0.0,45.3,60.9
+WRK00508,WRK00581,School Building at District_1 Sector 24,School Building at District_1 Sector 19,District_1,School Building,94.9,91.9,0.0,0.0,60.8
+WRK00380,WRK00555,Drainage at District_8 Sector 11,Drainage at District_8 Sector 6,District_8,Drainage,95.2,22.7,29.1,81.1,60.7
+WRK00446,WRK00536,Water Supply at District_7 Sector 7,Water Supply at District_7 Sector 22,District_7,Water Supply,95.8,55.6,0.0,52.5,60.7
+WRK00063,WRK00394,Drainage at District_6 Sector 4,Drainage at District_6 Sector 19,District_6,Drainage,95.2,45.2,2.9,66.9,60.7
+WRK00283,WRK00583,Road Construction at District_10 Sector 3,Road Construction at District_10 Sector 10,District_10,Road Construction,96.4,28.0,89.4,25.5,60.7
+WRK00080,WRK00205,School Building at District_11 Sector 38,School Building at District_11 Sector 23,District_11,School Building,97.5,44.3,0.0,66.2,60.7
+WRK00334,WRK00436,Drainage at District_10 Sector 29,Drainage at District_10 Sector 28,District_10,Drainage,97.0,74.9,28.2,0.0,60.7
+WRK00390,WRK00471,Road Construction at District_8 Sector 35,Road Construction at District_8 Sector 13,District_8,Road Construction,97.6,39.3,0.0,73.2,60.6
+WRK00335,WRK00483,School Building at District_3 Sector 8,School Building at District_3 Sector 39,District_3,School Building,96.1,33.8,0.0,84.1,60.6
+WRK00169,WRK00421,Irrigation Canal at District_3 Sector 3,Irrigation Canal at District_3 Sector 18,District_3,Irrigation Canal,96.2,51.9,0.0,56.3,60.5
+WRK00126,WRK00327,School Building at District_4 Sector 15,School Building at District_4 Sector 20,District_4,School Building,94.9,38.9,0.0,78.0,60.5
+WRK00160,WRK00301,Water Supply at District_3 Sector 35,Water Supply at District_3 Sector 5,District_3,Water Supply,98.6,56.8,0.0,44.4,60.4
+WRK00317,WRK00526,Community Hall at District_8 Sector 6,Community Hall at District_8 Sector 12,District_8,Community Hall,96.0,32.2,44.6,51.8,60.3
+WRK00420,WRK00514,Water Supply at District_4 Sector 7,Water Supply at District_4 Sector 24,District_4,Water Supply,95.8,66.2,0.0,34.5,60.3
+WRK00277,WRK00442,Drainage at District_10 Sector 19,Drainage at District_10 Sector 8,District_10,Drainage,95.4,29.0,84.1,28.2,60.3
+WRK00054,WRK00099,Drainage at District_9 Sector 14,Drainage at District_9 Sector 25,District_9,Drainage,93.8,71.9,39.5,0.0,60.3
+WRK00055,WRK00219,Irrigation Canal at District_1 Sector 22,Irrigation Canal at District_1 Sector 3,District_1,Irrigation Canal,96.2,33.7,59.0,38.5,60.3
+WRK00084,WRK00339,Water Supply at District_2 Sector 35,Water Supply at District_2 Sector 28,District_2,Water Supply,94.4,90.8,0.0,0.0,60.3
+WRK00212,WRK00534_DUP,Bridge at District_5 Sector 14,Bridge at District_5 Sector 13 Phase,District_5,Bridge,87.9,69.9,0.0,43.1,60.3
+WRK00386,WRK00537_DUP,Irrigation Canal at District_5 Sector 32,Irrigation Canal at District_5 Sector 38 Phase,District_5,Irrigation Canal,90.7,39.8,0.0,82.8,60.2
+WRK00101,WRK00429,Community Hall at District_4 Sector 7,Community Hall at District_4 Sector 8,District_4,Community Hall,97.3,86.4,0.0,1.4,60.2
+WRK00111,WRK00147,Water Supply at District_2 Sector 17,Water Supply at District_2 Sector 16,District_2,Water Supply,97.2,87.3,0.0,0.0,60.2
+WRK00056,WRK00319,Water Supply at District_12 Sector 34,Water Supply at District_12 Sector 31,District_12,Water Supply,97.3,77.3,0.0,14.3,60.1
+WRK00151,WRK00363,Irrigation Canal at District_3 Sector 34,Irrigation Canal at District_3 Sector 30,District_3,Irrigation Canal,97.5,38.2,0.0,72.5,60.1
+WRK00316,WRK00361,Water Supply at District_8 Sector 1,Water Supply at District_8 Sector 2,District_8,Water Supply,97.1,66.7,0.0,30.2,60.1
+WRK00324,WRK00476,Anganwadi Center at District_1 Sector 6,Anganwadi Center at District_1 Sector 22,District_1,Anganwadi Center,96.2,29.5,0.0,87.9,60.1
+WRK00241,WRK00261,School Building at District_8 Sector 20,School Building at District_8 Sector 18,District_8,School Building,94.9,37.4,0.0,77.9,60.0

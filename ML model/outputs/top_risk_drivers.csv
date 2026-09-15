@@ -1,0 +1,7 @@
+risk_driver,correlation_with_final_risk_score,avg_score_among_high_risk_works,pct_of_high_risk_works_driven_by_this (score>50)
+Utilisation irregularity,0.804,96.8,100.0
+Anomaly (Isolation Forest),0.718,85.6,100.0
+Fund diversion signal,0.716,40.9,35.3
+Cost overrun,0.641,43.8,64.7
+Duplicate/overlapping works,0.487,62.3,82.4
+Delay,0.097,100.0,100.0
