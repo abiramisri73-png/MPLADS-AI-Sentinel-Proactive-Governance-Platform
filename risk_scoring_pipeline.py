@@ -545,10 +545,7 @@ def top_risk_drivers_report(df):
     }
     rows = []
     for label, col in driver_cols.items():
-        if df[col].nunique() <= 1:
-            corr = 0
-        else:
-            corr = df[col].corr(df["risk_score"])
+        corr = df[col].corr(df["risk_score"])
         pct_flagged_high = (df.loc[df["risk_band"].isin(["Critical", "High"]), col] > 50).mean() * 100
         avg_value_high_risk = df.loc[df["risk_band"].isin(["Critical", "High"]), col].mean()
         rows.append({
