@@ -9,8 +9,7 @@ APP_NAME = "MPLADS SENTINEL"
 APP_SUBTITLE = "AI Monitoring & Risk Analytics Platform"
 APP_VERSION = "1.0.0"
 
-PRIMARY_COLOR = "#1e3a5f"
-ACCENT_COLOR = "#a1721a"
+PRIMARY_COLOR = "#4f46e5"
 
 USER_ROLES = [
     "Member of Parliament",
@@ -30,15 +29,8 @@ DEMO_BANNER_TEXT = (
 OUTPUT_DIR = "outputs"
 
 RISK_BAND_COLORS = {
-    "Critical": "#b42318",
-    "High": "#b54708",
-    "Medium": "#8a6d1a",
-    "Low": "#1a7f4e",
-}
-
-RISK_BAND_BG = {
-    "Critical": "#fbeae8",
-    "High": "#fdf1e6",
-    "Medium": "#f8f3df",
-    "Low": "#e6f3ec",
+    "Critical": "#dc2626",
+    "High": "#f59e0b",
+    "Medium": "#eab308",
+    "Low": "#16a34a",
 }
