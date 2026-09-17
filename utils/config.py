@@ -34,3 +34,10 @@ RISK_BAND_COLORS = {
     "Medium": "#eab308",
     "Low": "#16a34a",
 }
+
+RISK_BAND_BG = {
+    "Critical": "#fee2e2",
+    "High": "#fef3c7",
+    "Medium": "#fef9c3",
+    "Low": "#dcfce7",
+}
