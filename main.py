@@ -17,7 +17,7 @@ What it does, in order:
 
 The dashboard itself (Streamlit) is a separate long-running process by
 design -- `main.py` prepares everything it needs and exits; you then run
-`streamlit run dashboard_app.py` to open the interactive UI, or this
+`streamlit run app.py` to open the interactive UI, or this
 script can launch it for you with --dashboard.
 =================================================================================
 """
@@ -29,7 +29,7 @@ import sys
 
 import risk_scoring_pipeline as rsp
 import supervised_fraud_model as sfm
-import audit_assistant as aa
+import audit_engine as aa
 
 OUTPUT_DIR = "outputs"
 
@@ -73,11 +73,11 @@ def run_full_flow(input_csv=None, top_n_works=20, top_n_districts=5, use_llm=Fal
     print(f"Final scored dataset : {final_dataset_path}")
     print(f"All outputs in       : {os.path.abspath(OUTPUT_DIR)}/")
     print("\nTo explore results interactively, run:")
-    print("    streamlit run dashboard_app.py")
+    print("    streamlit run app.py")
 
     if launch_dashboard:
         print("\n[INFO] Launching dashboard (Ctrl+C to stop)...")
-        subprocess.run([sys.executable, "-m", "streamlit", "run", "dashboard_app.py"])
+        subprocess.run([sys.executable, "-m", "streamlit", "run", "app.py"])
 
 
 if __name__ == "__main__":
