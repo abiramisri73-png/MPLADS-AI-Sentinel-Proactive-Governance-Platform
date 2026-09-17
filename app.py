@@ -34,27 +34,28 @@ def _inject_css() -> None:
     st.markdown(
         """
 <style>
-/* ── Google Font ── */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* ── Google Fonts ── */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=Public+Sans:wght@300;400;500;600;700&display=swap');
 
 /* ── Root tokens ── */
 :root {
-  --primary:      #4f46e5;
-  --primary-dark: #312e81;
-  --sidebar-bg:   #1e1b4b;
+  --primary:      #1e3a5f;
+  --primary-dark: #14283f;
+  --accent:       #a1721a;
+  --sidebar-bg:   #14213d;
   --card-bg:      #ffffff;
-  --page-bg:      #eef0f8;
-  --text:         #0f172a;
-  --text-body:    #1e293b;
-  --text-muted:   #475569;
-  --border:       #cbd5e1;
-  --radius:       10px;
-  --shadow:       0 2px 12px rgba(0,0,0,0.07);
+  --page-bg:      #f4f5f7;
+  --text:         #1a1f2b;
+  --text-body:    #2d3142;
+  --text-muted:   #667085;
+  --border:       #d7dbe2;
+  --radius:       6px;
+  --shadow:       0 1px 3px rgba(16,24,40,0.06);
 }
 
 /* ── Base & Global Text Readability ── */
 html, body, [class*="css"], [data-testid="stAppViewContainer"] {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Public Sans', sans-serif;
   color: var(--text-body);
 }
 
@@ -72,10 +73,10 @@ p, span, li, td, th {
   background-color: var(--page-bg) !important;
 }
 
-/* ── Sidebar (Preserved Dark Navy/Purple Theme) ── */
+/* ── Sidebar (Solid Institutional Navy) ── */
 [data-testid="stSidebar"] {
-  background: linear-gradient(180deg, #1e1b4b 0%, #312e81 100%) !important;
-  border-right: none;
+  background: var(--sidebar-bg) !important;
+  border-right: 1px solid rgba(255,255,255,0.06);
 }
 [data-testid="stSidebar"] h1,
 [data-testid="stSidebar"] h2,
@@ -83,16 +84,16 @@ p, span, li, td, th {
 [data-testid="stSidebar"] p,
 [data-testid="stSidebar"] label,
 [data-testid="stSidebar"] div:not([data-baseweb="popover"] *):not([data-baseweb="menu"] *) {
-  color: #e0e7ff;
+  color: #dce3f0;
 }
 [data-testid="stSidebar"] [data-testid="stWidgetLabel"] p,
 [data-testid="stSidebar"] [data-testid="stWidgetLabel"] span {
-  color: #c7d2fe !important;
+  color: #a9b6cc !important;
 }
 [data-testid="stSidebar"] [data-baseweb="select"] {
-  background: rgba(255,255,255,0.1) !important;
-  border: 1px solid rgba(255,255,255,0.2) !important;
-  border-radius: 8px !important;
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.16) !important;
+  border-radius: 4px !important;
 }
 [data-testid="stSidebar"] [data-baseweb="select"] span,
 [data-testid="stSidebar"] [data-baseweb="select"] div {
@@ -138,21 +139,21 @@ li[role="option"] * {
 [data-baseweb="menu"] li:hover,
 li[role="option"]:hover,
 li[aria-selected="true"] {
-  background-color: #eef2ff !important;
+  background-color: #eef1f6 !important;
 }
 li[aria-selected="true"] * {
-  color: #4f46e5 !important;
+  color: #1e3a5f !important;
   font-weight: 600 !important;
 }
 
 /* Multiselect chips */
 [data-baseweb="tag"] {
-  background-color: #e0e7ff !important;
-  border: 1px solid #c7d2fe !important;
-  border-radius: 6px !important;
+  background-color: #e4e9f1 !important;
+  border: 1px solid #c3cddc !important;
+  border-radius: 4px !important;
 }
 [data-baseweb="tag"] span {
-  color: #312e81 !important;
+  color: #1e3a5f !important;
   font-weight: 600 !important;
 }
 
@@ -186,16 +187,17 @@ span[style*="color:#64748b"] {
 
 /* ── Headings ── */
 h1, h2, h3, h4, h5, h6 {
-  color: #0f172a !important;
-  font-weight: 700 !important;
+  font-family: 'Source Serif 4', serif !important;
+  color: #1a1f2b !important;
+  font-weight: 600 !important;
 }
 h2 {
-  font-size: 1.65rem !important;
+  font-size: 1.6rem !important;
   margin-bottom: 4px !important;
 }
 h3 {
-  font-size: 1.25rem !important;
-  color: #1e293b !important;
+  font-size: 1.2rem !important;
+  color: #2d3142 !important;
 }
 
 /* ── KPI Cards ── */
@@ -215,12 +217,12 @@ h3 {
   gap: 4px;
 }
 .kpi-card:hover {
-  box-shadow: 0 6px 20px rgba(79,70,229,0.14);
-  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(16,24,40,0.10);
+  transform: translateY(-1px);
 }
 .kpi-card--alert {
-  border-color: #fde68a;
-  background: #fffbeb;
+  border-color: #e8d9b0;
+  background: #fdf9ef;
 }
 .kpi-icon {
   font-size: 1.5rem;
@@ -289,21 +291,21 @@ h3 {
   transition: all 0.15s ease !important;
 }
 .stButton button:hover {
-  border-color: #4f46e5 !important;
-  color: #4f46e5 !important;
-  background-color: #f5f3ff !important;
+  border-color: #1e3a5f !important;
+  color: #1e3a5f !important;
+  background-color: #f2f4f7 !important;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(79,70,229,0.15) !important;
+  box-shadow: 0 3px 10px rgba(16,24,40,0.10) !important;
 }
 [data-testid="stDownloadButton"] button {
-  background-color: #4f46e5 !important;
+  background-color: #1e3a5f !important;
   color: #ffffff !important;
   border: none !important;
   font-weight: 600 !important;
-  border-radius: 8px !important;
+  border-radius: 6px !important;
 }
 [data-testid="stDownloadButton"] button:hover {
-  background-color: #4338ca !important;
+  background-color: #14283f !important;
   color: #ffffff !important;
 }
 
@@ -314,18 +316,18 @@ h3 {
   color: #475569 !important;
 }
 [data-testid="stTabs"] [aria-selected="true"] {
-  border-bottom: 2px solid var(--primary) !important;
+  border-bottom: 2px solid var(--accent) !important;
   color: var(--primary) !important;
 }
 
 /* ── Info/Warning boxes ── */
 [data-testid="stInfo"] {
-  background-color: #eef2ff !important;
-  border-radius: 8px !important;
-  border-left: 4px solid #4f46e5 !important;
+  background-color: #eef1f6 !important;
+  border-radius: 6px !important;
+  border-left: 4px solid #1e3a5f !important;
 }
 [data-testid="stInfo"] * {
-  color: #1e1b4b !important;
+  color: #14283f !important;
 }
 [data-testid="stWarning"] {
   background-color: #fffbeb !important;
@@ -384,18 +386,18 @@ hr {
 
 /* ── Progress bar ── */
 .stProgress > div > div > div {
-  background: linear-gradient(90deg, #4f46e5, #7c3aed) !important;
+  background: linear-gradient(90deg, #1e3a5f, #a1721a) !important;
   border-radius: 999px !important;
 }
 
 /* ── Demo banner ── */
 .demo-banner {
-  background: rgba(239,68,68,0.12);
-  border: 1px solid rgba(239,68,68,0.4);
-  border-radius: 8px;
+  background: rgba(180,35,24,0.10);
+  border: 1px solid rgba(180,35,24,0.30);
+  border-radius: 6px;
   padding: 8px 12px;
   font-size: 0.72rem;
-  color: #fca5a5;
+  color: #e29a92;
   margin-top: 8px;
   text-align: center;
   line-height: 1.4;
@@ -406,10 +408,10 @@ hr {
   width: 100%;
   text-align: left;
   padding: 10px 14px;
-  border-radius: 8px;
+  border-radius: 4px;
   cursor: pointer;
   transition: background 0.15s;
-  color: #c7d2fe;
+  color: #a9b6cc;
   font-size: 0.92rem;
   font-weight: 500;
   display: flex;
@@ -419,8 +421,29 @@ hr {
   background: transparent;
 }
 .nav-btn:hover, .nav-btn--active {
-  background: rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.08);
   color: #fff;
+}
+
+/* ── Sidebar nav button (Streamlit-rendered) ── */
+[data-testid="stSidebar"] .stButton button {
+  background-color: transparent !important;
+  border: none !important;
+  border-left: 2px solid transparent !important;
+  border-radius: 4px !important;
+  color: #a9b6cc !important;
+  text-align: left !important;
+  box-shadow: none !important;
+}
+[data-testid="stSidebar"] .stButton button:hover {
+  border-left: 2px solid var(--accent) !important;
+  background-color: rgba(255,255,255,0.06) !important;
+  color: #fff !important;
+  transform: none !important;
+}
+[data-testid="stSidebar"] [data-testid="stDownloadButton"] button {
+  background-color: rgba(255,255,255,0.08) !important;
+  color: #fff !important;
 }
 </style>
         """,
@@ -466,13 +489,13 @@ def _render_sidebar() -> None:
         st.markdown(
             f"""
 <div style="text-align:center;padding:8px 0 16px 0">
-  <div style="font-size:1.8rem;font-weight:800;color:#e0e7ff;letter-spacing:-0.5px">
+  <div style="font-size:1.8rem;font-weight:800;color:#dce3f0;letter-spacing:-0.5px">
     🏛️ MPLADS
   </div>
-  <div style="font-size:0.75rem;color:#a5b4fc;font-weight:500;margin-top:2px">
+  <div style="font-size:0.75rem;color:#a9b6cc;font-weight:500;margin-top:2px">
     SENTINEL
   </div>
-  <div style="font-size:0.65rem;color:#6d7ed8;margin-top:4px;font-style:italic">
+  <div style="font-size:0.65rem;color:#7e8caa;margin-top:4px;font-style:italic">
     {APP_SUBTITLE}
   </div>
 </div>
@@ -483,7 +506,7 @@ def _render_sidebar() -> None:
 
         # ── Navigation ──
         st.markdown(
-            "<div style='font-size:0.65rem;color:#6d7ed8;font-weight:600;"
+            "<div style='font-size:0.65rem;color:#7e8caa;font-weight:600;"
             "text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px'>"
             "Navigation</div>",
             unsafe_allow_html=True,
@@ -493,7 +516,7 @@ def _render_sidebar() -> None:
             is_active = st.session_state["page"] == label
             btn_style = (
                 "background:rgba(255,255,255,0.14);color:#fff;" if is_active
-                else "background:transparent;color:#c7d2fe;"
+                else "background:transparent;color:#a9b6cc;"
             )
             if st.button(
                 f"{icon}  {label}",
@@ -511,7 +534,7 @@ def _render_sidebar() -> None:
 
         # ── Role Selector ──
         st.markdown(
-            "<div style='font-size:0.65rem;color:#6d7ed8;font-weight:600;"
+            "<div style='font-size:0.65rem;color:#7e8caa;font-weight:600;"
             "text-transform:uppercase;letter-spacing:0.08em;margin-bottom:6px'>"
             "Demo Role Selector</div>",
             unsafe_allow_html=True,
@@ -532,7 +555,7 @@ def _render_sidebar() -> None:
             "Ministry":              "🏛️",
         }
         st.markdown(
-            f"<div style='font-size:0.75rem;color:#a5b4fc;padding:4px 0'>"
+            f"<div style='font-size:0.75rem;color:#a9b6cc;padding:4px 0'>"
             f"{role_icons.get(selected_role, '👤')} {selected_role}"
             f"</div>",
             unsafe_allow_html=True,
@@ -544,10 +567,11 @@ def _render_sidebar() -> None:
         # ── AI Assistant Callout ──
         st.markdown(
             """
-<div style="background:linear-gradient(135deg,rgba(79,70,229,0.3),rgba(124,58,237,0.3));
-  border:1px solid rgba(167,139,250,0.4);border-radius:10px;padding:12px;margin-bottom:8px">
-  <div style="font-size:0.85rem;font-weight:600;color:#e0e7ff">🤖 AI Audit Assistant</div>
-  <div style="font-size:0.72rem;color:#a5b4fc;margin-top:4px">
+<div style="background:rgba(255,255,255,0.05);
+  border:1px solid rgba(161,114,26,0.35);border-left:3px solid #a1721a;
+  border-radius:6px;padding:12px;margin-bottom:8px">
+  <div style="font-size:0.85rem;font-weight:600;color:#dce3f0">🤖 AI Audit Assistant</div>
+  <div style="font-size:0.72rem;color:#a9b6cc;margin-top:4px">
     Ask questions about MPLADS monitoring data
   </div>
 </div>
@@ -567,7 +591,7 @@ def _render_sidebar() -> None:
 
         # ── Version ──
         st.markdown(
-            f"<div style='text-align:center;font-size:0.62rem;color:#4c4f8a;"
+            f"<div style='text-align:center;font-size:0.62rem;color:#5b6a8a;"
             f"margin-top:12px'>v{APP_VERSION} · Member 4 Frontend Module</div>",
             unsafe_allow_html=True,
         )
@@ -588,7 +612,7 @@ def _render_role_hint(role: str) -> None:
     hint = hints.get(role, "")
     if hint:
         st.markdown(
-            f"<div style='font-size:0.68rem;color:#6d7ed8;font-style:italic;padding:2px 0'>"
+            f"<div style='font-size:0.68rem;color:#7e8caa;font-style:italic;padding:2px 0'>"
             f"{hint}</div>",
             unsafe_allow_html=True,
         )
@@ -677,3 +701,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
