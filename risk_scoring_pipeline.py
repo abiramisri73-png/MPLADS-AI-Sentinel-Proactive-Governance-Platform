@@ -47,6 +47,7 @@ COLS = {
     "id":            "work_id",
     "name":          "work_name",
     "work_type":     "work_type",
+    "state":         "state",
     "district":      "district",
     "lat":           "lat",
     "lon":           "lon",
@@ -95,19 +96,33 @@ DUPLICATE_RISK_ALERT_MIN = 60     # duplicate_risk_score >= this => report pair
 
 def generate_synthetic_data(n=600, seed=RANDOM_STATE):
     rng = np.random.default_rng(seed)
-    districts = [f"District_{i}" for i in range(1, 13)]
+
+    # Realistic state -> district -> approximate lat/lon, so role-based scoping
+    # (MP / District Authority / State Nodal / Ministry) and the map view work
+    # out of the box in the demo, and can be swapped for real data unchanged.
+    STATE_DISTRICTS = {
+        "Uttar Pradesh":  [("Lucknow", 26.85, 80.95), ("Kanpur", 26.45, 80.33), ("Varanasi", 25.32, 83.01)],
+        "Maharashtra":    [("Nagpur", 21.15, 79.09), ("Pune", 18.52, 73.86), ("Nashik", 19.99, 73.79)],
+        "Bihar":          [("Patna", 25.59, 85.14), ("Gaya", 24.80, 85.00), ("Bhagalpur", 25.25, 87.00)],
+        "Rajasthan":      [("Jaipur", 26.91, 75.79), ("Jodhpur", 26.29, 73.02), ("Udaipur", 24.58, 73.68)],
+        "Tamil Nadu":     [("Chennai", 13.08, 80.27), ("Madurai", 9.93, 78.12), ("Coimbatore", 11.02, 76.96)],
+        "Karnataka":      [("Bengaluru", 12.97, 77.59), ("Mysuru", 12.30, 76.65), ("Hubli", 15.36, 75.12)],
+        "West Bengal":    [("Kolkata", 22.57, 88.36), ("Asansol", 23.68, 86.97), ("Siliguri", 26.73, 88.43)],
+        "Gujarat":        [("Ahmedabad", 23.02, 72.57), ("Surat", 21.17, 72.83), ("Vadodara", 22.31, 73.19)],
+    }
+    states = list(STATE_DISTRICTS.keys())
+
     work_types = ["Road Construction", "Bridge", "School Building", "Water Supply",
                   "Irrigation Canal", "Community Hall", "Drainage", "Anganwadi Center"]
     vendors = [f"VEND_{i:03d}" for i in range(1, 60)]
 
     rows = []
     for i in range(n):
-        district = rng.choice(districts)
+        state = rng.choice(states)
+        district, d_lat, d_lon = STATE_DISTRICTS[state][rng.integers(0, len(STATE_DISTRICTS[state]))]
         wtype = rng.choice(work_types)
-        base_lat = 20 + hash(district) % 10 * 0.3
-        base_lon = 78 + hash(district) % 10 * 0.3
-        lat = base_lat + rng.normal(0, 0.05)
-        lon = base_lon + rng.normal(0, 0.05)
+        lat = d_lat + rng.normal(0, 0.05)
+        lon = d_lon + rng.normal(0, 0.05)
 
         sanctioned = rng.choice([500000, 1000000, 2500000, 5000000, 10000000]) * rng.uniform(0.8, 1.3)
         start = datetime(2023, 1, 1) + timedelta(days=int(rng.integers(0, 500)))
@@ -129,6 +144,7 @@ def generate_synthetic_data(n=600, seed=RANDOM_STATE):
             work_id=f"WRK{i:05d}",
             work_name=f"{wtype} at {district} Sector {rng.integers(1,40)}",
             work_type=wtype,
+            state=state,
             district=district,
             lat=lat, lon=lon,
             sanctioned_amount=round(sanctioned, 2),
@@ -601,7 +617,8 @@ def run_pipeline(input_csv=INPUT_CSV, output_dir=OUTPUT_DIR, cols=COLS):
 
     # ----- Assemble final scored dataset (clean column selection) -----
     output_cols = [
-        cols["id"], cols["name"], cols["work_type"], cols["district"],
+        cols["id"], cols["name"], cols["work_type"], cols["state"], cols["district"],
+        cols["lat"], cols["lon"],
         cols["sanctioned"], cols["expenditure"],
         cols["phys_progress"], cols["fin_progress"],
         "utilisation_pct", "cost_overrun_pct", "progress_gap", "delay_days",
