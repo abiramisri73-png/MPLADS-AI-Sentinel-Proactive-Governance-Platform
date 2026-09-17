@@ -344,7 +344,8 @@ def run_supervised_pipeline(input_csv=rsp.INPUT_CSV, output_dir=OUTPUT_DIR, cols
 
     # ---- Assemble outputs ----
     output_cols = [
-        cols["id"], cols["name"], cols["work_type"], cols["district"],
+        cols["id"], cols["name"], cols["work_type"], cols["state"], cols["district"],
+        cols["lat"], cols["lon"],
         "anomaly_score", "duplicate_risk_score", "risk_score", "risk_band",
         "supervised_fraud_probability", "hybrid_risk_score", "hybrid_risk_band",
         LABEL_COL, "combined_reasons",
